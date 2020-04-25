@@ -10,3 +10,123 @@
     align-items: center;
     height: 100vh;
 }
+
+
+/* Navigation Bar Styling*/
+
+.nav {
+    margin: 0;
+    font-family: Arial;
+    font-size: 150%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(121, 119, 119);
+}
+
+.nav li {
+    float: left;
+}
+
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav li a:hover {
+    background-color: rgb(44, 28, 28);
+}
+
+.active {
+    background-color: #111;
+
+/*Top Paralax Section*/
+
+.parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.parallax__layer--base {
+    transform: translateZ(0);
+}
+.parallax__layer--back{
+    transform: translateZ(-1px); scale(2);
+}
+.parallax__group {
+    position: relative;
+    height: 100vh;
+    transform-style: preserve-3d;
+}
+
+
+
+/*Navigation Bar Styling*/
+
+/* Three column styling*/
+/* Three column styling*/
+
+/* Two Column styling*/
+/* Two Column styling*/
+
+/* Our Services Paralax*/
+/* Our Services Paralax*/
+
+/* Four column styling*/
+/* Four Column styling*/
+
+/* One Big Column*/
+/* One Big Column*/
+
+
+
+
+
+/*Contact Us Styling*/
+/*Contact Us Sytling*/
+
+  input {
+      font-size: 120%;
+      font-family: Arial, Helvetica, sans-serif;
+      color: black;
+      background-color: white;
+      border: 1px solid black;
+      border-radius: 5px;
+      padding: 5px 5px 5px 30px;
+      background-repeat: no-repeat;
+      background-position: 8px 9px;
+      display: block;
+      margin-bottom: 10px;
+  }
+ 
+form {
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 5px 5px 30px;
+    background-repeat: no-repeat;
+    background-position: 8px 9px;
+    display: block;
+    margin-bottom: 10px;
+}
+
